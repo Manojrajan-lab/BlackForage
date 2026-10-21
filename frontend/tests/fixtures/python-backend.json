@@ -1,0 +1,32 @@
+{
+  "note": "TEST-ONLY throwaway key (0x11 * 32); never fund this address",
+  "secret_hex": "1111111111111111111111111111111111111111111111111111111111111111",
+  "password": "test-password-1",
+  "address": "BF8c964c62e764213629a394fc504ff1074ee103ab04331a77",
+  "public_key": "034f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa",
+  "keystore": {
+    "version": 1,
+    "address": "BF8c964c62e764213629a394fc504ff1074ee103ab04331a77",
+    "public_key": "034f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aa",
+    "kdf": {
+      "name": "scrypt",
+      "n": 16384,
+      "r": 8,
+      "p": 1,
+      "salt": "097b2cc996ebf76383d1982c7a22cb8b"
+    },
+    "cipher": {
+      "name": "aes-256-gcm",
+      "nonce": "b435bf213430097938e2edc7",
+      "ciphertext": "e11cedc304a4503af145baf91ea4e81aeacf892e85060fccfb4cc897722857fd2ef7705d03f9190a767026d5672c9294"
+    }
+  },
+  "recipient": "BFaf24e45b5c7a186d9444b33f045e6f13f8bd6d0dd95cf396",
+  "amount": 150000000,
+  "fee": 5,
+  "nonce": 3,
+  "memo_hex": "68656c6c6f",
+  "tx_hex": "01010000053900000021034f355bdcb7cc0af728ef3cceb9615d90684bb5b2ca5f859ab0f0b704075871aaaf24e45b5c7a186d9444b33f045e6f13f8bd6d0d0000000008f0d180000000000000000500000000000000030000000568656c6c6f00000040b4467242c1373d88882c86d5ef7e1901a7beb2908e343806c701b190e69b0048396424d2d0d3842270f701006120bb5effea802faea1727f3ac51da43527fa60",
+  "txid": "4e7bf726129efdb0edeac2a62873af7c9fdf6d44693ec9e81714a535d1896a42",
+  "signing_hash": "058085d65506cdb5a77e6d26e67156a5c0a4783d7f882da7f053a35452a1ba9f"
+}
